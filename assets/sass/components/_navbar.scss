@@ -1,0 +1,14 @@
+.navbar {
+    background-color: $app-raisin-black;
+    .navbar__logo {
+        width: 25%;
+    }
+    
+    .navbar-nav {
+        font-family: $roboto;
+        color: $app-white;
+        font-size: $small;
+    }
+    
+}
+

@@ -13,46 +13,43 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Barbershop</title>
 
 <body>
-    <div class="row">
-        <div class="col-sm">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="navbar__logo ml-3" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto mr-3 text-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nosotros</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Horas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="navbar__logo ml-3" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto mr-3 text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Horas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <header class="row">
-        <div class="col-sm-12">
-            <div class="hero-section">
-                <h1 class="hero-section__title text-center"> 5 formas de cuidar <br> tu corte de cabello</h1>
-                <img src="assets/img/post-image.jpg" alt="" class="hero-section__img">
-            </div>
+    </nav>
+    <header>
+
+        <div class="hero-section">
+            <p class="text-center"> 5 formas de cuidar <br> tu corte de cabello</p>
         </div>
+
     </header>
     <main class="main">
         <h5 class="main__title mb-5">12 de abril de 2018</h5>
@@ -136,43 +133,55 @@
             Minus corporis cum laudantium tempora, accusantium dolor hic laboriosam impedit consequuntur? Libero
             voluptatibus in unde tenetur eveniet tempore. Perspiciatis, impedit. Quis libero repellat provident totam
             alias dolorem temporibus architecto saepe.</p>
-        <button type="button" class="btn btn-secondary">Primary</button>
-        <button type="button" class="btn btn-secondary">Primary</button>
+        <div class="d-flex">
+            <button type="button" class="boton">Comentar en Twitter</button>
+            <button type="button" class="boton">Compartir</button>
+        </div>
     </main>
-        <section class="row">
-            <div class="col-sm navigation-pages">
-                <ul class="paginator">
-                    <li class="paginator__item">
-                        <a class="paginator__link" href="#">Anterior</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a class="paginator__link" href="#">1</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a class="paginator__link paginator__link--active" href="#">2 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="paginator__item">
-                        <a class="paginator__link" href="#">3</a>
-                    </li>
-                    <li class="paginator__item">
-                        <a class="paginator__link" href="#">Siguiente</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-   
+    <section class="author">
+        <div class="author__img" style="background-image: url(assets/img/naomi-thai.png)"></div>
+        <div class="author__name">
+            <p>Naomi Thai</p>
+            <a href="" class="author__link">@Naothaidepelos.com</a>
+        </div>
+        <div class="author__text d-none d-xl-inline-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque libero aliquid suscipit vero
+                repellat, sapiente itaque culpa? Iusto dignissimos repellat repellendus nisi cumque nihil magnam, minus
+                totam, natus veritatis soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fuga non
+                fugit facilis cum eius iusto autem totam, assumenda cupiditate amet tenetur reprehenderit, accusamus
+                consectetur officia ipsum placeat natus culpa!</p>
+        </div>
+    </section>
+    <section>
+        <div class="navigation-pages">
+            <ul class="paginator">
+                <li class="paginator__item">
+                    <a class="paginator__link" href="#">Anterior</a>
+                </li>
+                <li class="paginator__item">
+                    <a class="paginator__link" href="#">1</a>
+                </li>
+                <li class="paginator__item">
+                    <a class="paginator__link paginator__link--active" href="#">2 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="paginator__item">
+                    <a class="paginator__link" href="#">3</a>
+                </li>
+                <li class="paginator__item">
+                    <a class="paginator__link" href="#">Siguiente</a>
+                </li>
+            </ul>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
 <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="logo" class="logo__image mt-3">
-                </div>
-            </div>
+    <div class>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="logo" class="logo__image mx-auto pt-4">
         </div>
     </div>
 </footer>

@@ -1,17 +1,15 @@
-
-.hero-section {
-    .hero-section__img {
-    width: 100%;
-    position: absolute;
-    }
-    .hero-section__title {
-    position: flex;
+.hero-section{
+    background-image: url("/assets/img/post-image.jpg");
+    background-position: center;
+    background-size: cover;
     color: $app-white;
-    margin-top: 25%;
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $playfair;
     font-size: $xx-large;
-    font-weight: $black-italic;
     font-style: $italic;
-    }
+    font-weight: $black-italic;
+    height: 850px;
+    text-align: center;
 }

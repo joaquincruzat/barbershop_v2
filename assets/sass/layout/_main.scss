@@ -1,14 +1,10 @@
 main {
-    margin: 5%;
+    margin: 5rem;
     color: $app-nickel;
-    font-size: $small;
+    font-size: $medium;
+    line-height: 2rem;
 }
 
 .main__title {
-    font-size: $small;
-}
-
-.btn {
-    border-radius: 25%;
-    background-color: $app-nickel;
+    font-size: $medium;
 }

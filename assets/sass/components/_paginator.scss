@@ -1,18 +1,43 @@
 .paginator {
     border-radius: 0.25rem;
     display: flex;
+    justify-content: center;
     list-style: none;
+    padding: 1.5rem;
+  
+    &__item:first-child &__link {
+      border-top-left-radius: 1.25rem;
+      border-bottom-left-radius: 1.25rem;
 
-    &__item:first-child & link {
-    border-top-left-radius: 1.25rem;
-    border-bottom-left-radius: 1.25rem;
-    margin-left: 0;
     }
-
-    &__item:last-child & link {
-    border-top-right-radius: 1.25rem;
-    border-bottom-right-radius: 1.25rem;
-    margin-left: 0;
+  
+    &__item:last-child &__link {
+      border-top-right-radius: 1.25rem;
+      border-bottom-right-radius: 1.25rem;
+     
     }
-
-}
+    &__item.--active &__link {
+      background-color: $app-raisin-black;
+      border-color: $app-raisin-black;
+      color: $app-white;
+      z-index: 1;
+    }
+    &__link {
+      background-color: $app-white;
+      border: 1px solid $app-light-gray;
+      color: $app-eerie-black;
+      display: block;
+      font-family: $roboto;
+      font-size: $medium;
+      font-weight: $regular;
+      line-height: 1.25;
+      padding: 0.5rem 0.75rem;
+      position: relative;
+    }
+  
+    &__link:hover {
+      background-color: $app-nickel;
+      text-decoration: none;
+      color: $app-white;
+    }
+  }
